@@ -33,7 +33,6 @@ export default {
       bottom:'定制版',
       edition:'高级版',
       content:'独立摄影师',
-      content1:'小型工作室',
     }
    
   },
@@ -44,11 +43,13 @@ export default {
     dianL(){
       this.flag=true;
       this.edition=this.top;
+      this.content='独立摄影师';
+      
     },
     dianR(){
       this.flag=false;
       this.edition=this.bottom;
-      this.content=this.content1;
+      this.content='小型工作室';
   }
 }
 }
